@@ -2,7 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#DC7227",
+        secondary: "#15274D",
+      },
+      fontFamily: {
+        body: "'Raleway', sans-serif",
+      },
+    },
   },
   plugins: [],
 };
