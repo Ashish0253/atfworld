@@ -6,7 +6,7 @@ import { BiCheckDouble } from "react-icons/bi";
 const Projects = () => {
   const parallax = React.useRef(null);
 
-  console.log(parallax);
+  // console.log(parallax);
 
   return (
     <div className="px-[15%] py-10">

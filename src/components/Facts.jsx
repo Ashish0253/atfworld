@@ -12,7 +12,7 @@ const Facts = () => {
   //   const isVisible = useIsVisible(ref);
   // });
 
-  console.log(ref);
+  // console.log(ref);
 
   return (
     <>
