@@ -1,9 +1,9 @@
 import React from "react";
-import frame from "../assets/Testimonial Frame.svg";
+// import frame from "../assets/Testimonial Frame.svg";
 import { testimonials } from "../data";
 
 import Slider from "react-slick";
-import RenderArrows from "../utils/RenderArrows";
+// import RenderArrows from "../utils/RenderArrows";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

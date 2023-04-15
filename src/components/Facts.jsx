@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { facts } from "../data";
 import stadium from "../assets/stadium.svg";
 import Countup from "./Countup";
-import useIsVisible from "../hooks/useIsVisible";
+// import useIsVisible from "../hooks/useIsVisible";
 
 const Facts = () => {
   const ref = useRef(null);
