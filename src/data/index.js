@@ -62,15 +62,15 @@ export const facts = [
 export const skills = [
   {
     title: "DESIGN",
-    number: 85,
+    number: "85",
   },
   {
     title: "ARCHITECTURE",
-    number: 95,
+    number: "95",
   },
   {
     title: "CONSTRUCTION",
-    number: 80,
+    number: "80",
   },
 ];
 export const team = [
