@@ -1,7 +1,7 @@
 import React from "react";
 import { navLinks } from "../data";
 import logo from "../assets/logo.svg";
-import flag from "../assets/flag.svg";
+import flag from "../assets/flag.gif";
 import { FiUser } from "react-icons/fi";
 import { BsChevronDown } from "react-icons/bs";
 

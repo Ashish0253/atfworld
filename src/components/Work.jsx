@@ -73,7 +73,10 @@ const Work = () => {
             {work.map((item) => {
               return (
                 <div key={item.title} className="grid justify-items-center ">
-                  <img src={item.img} alt={item.title} />
+                  <img src={item.img} alt={item.title} width={500} />
+                  <div className="bg-primary text-white text-xl py-1 flex justify-center">
+                    {item.title}
+                  </div>
                 </div>
               );
             })}

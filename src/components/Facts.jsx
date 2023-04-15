@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import { facts } from "../data";
 import stadium from "../assets/stadium.svg";
+import Countup from "./Countup";
+import useIsVisible from "../hooks/useIsVisible";
 
 const Facts = () => {
+  const ref = useRef(null);
+  // documn;
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const isVisible = useIsVisible(ref);
+  // });
+
+  console.log(ref);
+
   return (
     <>
       <div className="bg-secondary px-[16%] pt-10">
@@ -23,7 +34,8 @@ const Facts = () => {
             return (
               <div key={item.title} className="grid justify-items-center ">
                 <div className="text-primary font-bold text-[64px]">
-                  {item.number}
+                  {/* {item.number} */}
+                  {true && <Countup number={item.number} />}
                 </div>
                 <div className="text-white font-base text-2xl">
                   {item.title}

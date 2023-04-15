@@ -63,13 +63,16 @@ const Team = () => {
           <Slider ref={slider} {...settings} className="px-10 my-4">
             {team.map((item) => {
               return (
-                <div
-                  key={item.name}
-                  className="grid justify-items-center border-2 border-black"
-                >
-                  <div className="flex justify-center"> {item.name}</div>
-                  <div className="flex justify-center">{item.department}</div>
-                  <div className="flex justify-center">{item.position}</div>
+                <div key={item.name} className="grid justify-items-center ">
+                  <img src={item.img} alt={item.title} />
+                  <div className="flex justify-center text-xl font-bold">
+                    {" "}
+                    {item.name}
+                  </div>
+                  <div className="flex justify-center text-lg font-semibold">
+                    {item.department}
+                  </div>
+                  <div className="flex justify-center ">{item.position}</div>
                 </div>
               );
             })}
