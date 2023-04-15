@@ -29,8 +29,8 @@ const Projects = () => {
 
       <div className="border-t-2 border-gray-400 mt-10 pt-">
         <div className="text-primary font-semibold my-20 ">
-          <div className="flex gap-7">
-            <p className="flex">
+          <div className="flex gap-7 my-1">
+            <p className="flex p">
               <BiCheckDouble size={20} className="text-black" /> PLANT
               ENGINEERING
             </p>
@@ -46,7 +46,7 @@ const Projects = () => {
         </div>
 
         <div className="text-primary font-semibold grid justify-end my-24">
-          <div className="flex gap-7">
+          <div className="flex gap-7 my-1">
             <p className="flex">
               <BiCheckDouble size={20} className="text-black" /> PLANT
               ENGINEERING
@@ -62,7 +62,7 @@ const Projects = () => {
           <img src={project} alt="project" width={600} />
         </div>
         <div className="text-primary font-semibold my-24">
-          <div className="flex gap-7">
+          <div className="flex gap-7 my-1">
             <p className="flex">
               <BiCheckDouble size={20} className="text-black" /> PLANT
               ENGINEERING

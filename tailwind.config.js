@@ -9,6 +9,7 @@ export default {
       },
       fontFamily: {
         body: "'Raleway', sans-serif",
+        number: "'Montserrat', sans-serif",
       },
       backgroundImage: {
         frame: "url('./src/assets/Testimonial Frame.svg')",

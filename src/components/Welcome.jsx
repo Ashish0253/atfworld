@@ -2,10 +2,11 @@ import React from "react";
 import Idea from "../assets/idea.svg";
 import Design from "../assets/design.svg";
 import Build from "../assets/build.svg";
+import building from "../assets/building.svg";
 
 const Welcome = () => {
   return (
-    <div className="pl-[15%] grid grid-cols-5 py-10 bg-[#f4f3ed]">
+    <div className="pl-[15%] grid grid-cols-5 gap-20 py-10 bg-[#f4f3ed]">
       <div className="col-span-3 ">
         <div className="border-b-2 border-secondary">
           <div className="text-primary text-[60px]">
@@ -44,7 +45,9 @@ const Welcome = () => {
           </div>
         </div>
       </div>
-      <div className="col-span-2"></div>
+      <div className="col-span-2 ">
+        <img src={building} alt="building" />
+      </div>
     </div>
   );
 };

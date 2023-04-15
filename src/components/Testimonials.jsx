@@ -58,17 +58,17 @@ const Testimonials = () => {
         <Slider
           ref={slider}
           {...settings}
-          className="px-10 my-4 top-60 left-32"
+          className="px-10 my-4 top-48 left-16"
         >
           {testimonials.map((item) => {
             return (
               <div key={item.name} className="flex justify-items-center ">
-                <div className=" flex text-white text-lg font-semibold">
-                  <p className="max-w-md">{item.content}</p>
+                <div className=" flex text-white text-3xl font-semibold">
+                  <p className="max-w-lg">{item.content}</p>
 
-                  <div className="pt-10 ml-10 mt-14 grid justify-items-enter">
-                    <p className="text-2xl text-white font-bold">{item.name}</p>
-                    <p className="text-white text-base text-center">
+                  <div className="pt-10 ml-44 mt-[120px] grid justify-items-enter">
+                    <p className="text-3xl text-white font-bold">{item.name}</p>
+                    <p className="text-white text-xl text-center">
                       {item.position}
                     </p>
                   </div>
