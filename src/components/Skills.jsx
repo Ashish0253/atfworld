@@ -28,7 +28,7 @@ const Skills = () => {
                   <ProgressBar
                     width="300"
                     trackWidth="40"
-                    percentage={item.number}
+                    percentage="80"
                     fontColor="#DC7227"
                     defColor={{
                       fair: "#DC7227",
