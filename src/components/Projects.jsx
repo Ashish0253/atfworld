@@ -9,15 +9,15 @@ const Projects = () => {
   // console.log(parallax);
 
   return (
-    <div className="px-[15%] py-10">
-      <div className="grid grid-cols-6">
-        <div className="text-primary col-span-3 mr-10 max-w-lg border-b-4 border-primary py-5 font-bold text-[40px]">
-          PROJECTS WE DID SO FAR
+    <div className="px-[15%] py-10" id="Work">
+      <div className="grid grid-cols-6 ">
+        <div className="text-primary col-span-3 mr-10 max-w-lg border-b-4 border-primary py-5 font-bold text-[40px] leading-10">
+          PROJECTS
+          <br /> WE DID SO FAR
         </div>
-        <div className="col-span-3 pt-10">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
+        <div className="col-span-3 pt-10 text-base">
+          Transforming visions into reality through innovative engineering and
+          unparalleled expertise.
         </div>
       </div>
 
@@ -28,8 +28,8 @@ const Projects = () => {
       </div>
 
       <div className="border-t-2 border-gray-400 mt-10 pt-">
-        <div className="text-primary font-semibold my-20 ">
-          <div className="flex gap-7 my-1">
+        <div className="text-primary font-semibold my-20 relative">
+          <div className="flex gap-7 my-2">
             <p className="flex p">
               <BiCheckDouble size={20} className="text-black" /> PLANT
               ENGINEERING
@@ -41,12 +41,47 @@ const Projects = () => {
               <BiCheckDouble size={20} className="text-black" /> PLANT ONSHORE
             </p>
           </div>
-
           <img src={project} alt="project" width={600} />
+          <div className="absolute z-10 top-40 left-[32rem]">
+            <div className="text-[40px] leading-10 text-bold">
+              BK <span className="font-number">16</span> WELLHEAD <br />{" "}
+              SATELLITE PLATFORM
+            </div>
+            <div className="grid justify-end pt-10">
+              <a className="text-secondary font-bold ">VIEW PROJECT &gt;&gt;</a>
+            </div>
+          </div>
         </div>
 
-        <div className="text-primary font-semibold grid justify-end my-24">
-          <div className="flex gap-7 my-1">
+        <div className="text-primary font-semibold grid justify-end my-24 relative">
+          <div className="flex gap-7 my-2">
+            <p className="flex">
+              <BiCheckDouble size={20} className="text-black" /> BIM
+            </p>
+            <p className="flex">
+              <BiCheckDouble size={20} className="text-black" /> ARCHITECTURE
+            </p>
+            <p className="flex">
+              <BiCheckDouble size={20} className="text-black" /> STRUCTURE
+            </p>
+            <p className="flex">
+              <BiCheckDouble size={20} className="text-black" /> MEP
+            </p>
+          </div>
+
+          <img src={project} alt="project" width={600} />
+          <div className="absolute z-10 top-40 left-[11rem]">
+            <div className="text-[40px] leading-10 text-bold">
+              BIM SAMPLE PROJECT
+            </div>
+            <div className="grid justify-start pt-10">
+              <a className="text-secondary font-bold ">VIEW PROJECT &gt;&gt;</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-primary font-semibold my-24 relative">
+          <div className="flex gap-7 my-2">
             <p className="flex">
               <BiCheckDouble size={20} className="text-black" /> PLANT
               ENGINEERING
@@ -60,22 +95,14 @@ const Projects = () => {
           </div>
 
           <img src={project} alt="project" width={600} />
-        </div>
-        <div className="text-primary font-semibold my-24">
-          <div className="flex gap-7 my-1">
-            <p className="flex">
-              <BiCheckDouble size={20} className="text-black" /> PLANT
-              ENGINEERING
-            </p>
-            <p className="flex">
-              <BiCheckDouble size={20} className="text-black" /> PLANT OFFSHORE
-            </p>
-            <p className="flex">
-              <BiCheckDouble size={20} className="text-black" /> PLANT ONSHORE
-            </p>
+          <div className="absolute z-10 top-40 left-[34rem]">
+            <div className="text-[40px] leading-[45px] text-bold">
+              RASTER TO CAD <br /> DIGITIZATION CAD <br /> CONVERSION
+            </div>
+            <div className="grid justify-end pt-10">
+              <a className="text-secondary font-bold ">VIEW PROJECT &gt;&gt;</a>
+            </div>
           </div>
-
-          <img src={project} alt="project" width={600} />
         </div>
         {/* <Parallax pages={4} ref={parallax}></Parallax> */}
       </div>

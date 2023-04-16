@@ -11,9 +11,9 @@ import {
 
 const Contact = () => {
   return (
-    <div className="bg-primary px-[15%] py-10 text-white">
+    <div className="bg-primary px-[15%] py-10 text-white" id="Contact Us">
       <div>
-        <div className=" text-[40px] border-b-2 border-white py-2">
+        <div className=" text-[40px] border-b-4 border-white py-2">
           WHERE TO FIND US
         </div>
         <p className="pl-[50%] py-4">
@@ -33,7 +33,7 @@ const Contact = () => {
         className="w-[100%]"
       ></iframe>
 
-      <div className="grid grid-cols-5 py-5">
+      <div className="grid grid-cols-5 py-10">
         <div className="text-xl font-semibold">Contact Us:</div>
         <div>
           <p className="pb-2 pt-1 font-bold">USA Office</p>
@@ -41,15 +41,16 @@ const Contact = () => {
             1207 Godrej Waterside, Tower II 12th Floor, Block DP Sector V Salt
             Lake,Electronic Complex, Kolkata West Bengal 700091
           </p>
-
-          <a className="flex font-number">
-            <FiPhoneCall size={15} className="m-1 mx-2" />
-            7001805711
-          </a>
-          <a className="flex">
-            <FiMail size={15} className="m-2" />
-            contact@atfworld.com
-          </a>
+          <div className="pt-5">
+            <a className="flex font-number">
+              <FiPhoneCall size={20} className=" mr-2" />
+              7001805711
+            </a>
+            <a className="flex pt-2">
+              <FiMail size={20} className="mr-2 " />
+              contact@atfworld.com
+            </a>
+          </div>
         </div>
         <div></div>
         <div className="col-span-2 ">
@@ -58,12 +59,12 @@ const Contact = () => {
           </p>
           {/* icons  */}
 
-          <div className="p-2 flex justify-end gap-4">
-            <FiYoutube size={45} />
-            <BsInstagram size={40} />
-            <FiTwitter size={40} />
-            <FiLinkedin size={40} />
-            <FiFacebook size={40} />
+          <div className="p-2 pr-8 flex justify-end gap-4">
+            <FiYoutube size={40} />
+            <BsInstagram size={35} />
+            <FiTwitter size={35} />
+            <FiLinkedin size={35} />
+            <FiFacebook size={35} />
           </div>
 
           <div className="flex"></div>

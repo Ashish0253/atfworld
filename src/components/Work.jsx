@@ -52,7 +52,7 @@ const Work = () => {
 
   return (
     <>
-      <div className="bg-secondary px-[16%] py-10">
+      <div className="bg-secondary px-[16%] py-10" id="Service">
         <div className="grid grid-cols-6 gap-x-10 ">
           <div className="text-primary col-span-3 mr-10 max-w-lg  py-5 font-bold text-[40px]">
             <div className="py-4 border-b-4 border-primary">WHAT WE DO</div>

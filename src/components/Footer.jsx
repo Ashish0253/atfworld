@@ -20,7 +20,7 @@ const Footer = () => {
         ))}
       </div>
 
-      <div className="col-span-2 text-white">
+      <div className="col-span-2 pl-4 text-white">
         <div className="text-3xl p-2">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.

@@ -18,8 +18,10 @@ const Facts = () => {
     <>
       <div className="bg-secondary px-[16%] pt-10">
         <div className="grid grid-cols-6 gap-x-10 ">
-          <div className="text-primary col-span-3 mr-10 max-w-lg border-b-4 border-primary py-5 font-bold text-[40px]">
-            SOME INTERESTING FACTS
+          <div className="text-primary col-span-3 mr-10 max-w-lg   font-bold text-[40px] leading-10">
+            <div className="border-b-4 py-5 border-primary">
+              SOME INTERESTING FACTS
+            </div>
           </div>
           <div className="col-span-3 text-white pt-10 pl-">
             ATF has already greatly impacted on 150+ customer’s projects all

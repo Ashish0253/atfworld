@@ -26,7 +26,7 @@ const Skills = () => {
           {skills.map((item) => {
             return (
               <div key={item.title} className="grid justify-items-center ">
-                <div className="text-primary font-bold p-4 flex">
+                <div className="text-primary font-bold font-number p-4 flex">
                   {/* <Countup number={item.number} /> % */}
                   <VisibilitySensor>
                     {({ isVisible }) => {

@@ -52,7 +52,7 @@ const Team = () => {
 
   return (
     <>
-      <div className="px-[15%] py-10">
+      <div className="px-[15%] py-10" id="Team">
         <div className="text-primary border-b-4 py-2 text-[40px] font-bold border-primary">
           OUR FANTASTIC TEAM
         </div>

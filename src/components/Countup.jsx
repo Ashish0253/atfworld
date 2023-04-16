@@ -15,7 +15,7 @@ const Countup = ({ number, begin }) => {
       if (start == number) clearInterval(timer);
     }, incrementTime);
   }, [number]);
-  return <div>{count}</div>;
+  return <div className="font-number">{count}</div>;
 };
 
 export default Countup;

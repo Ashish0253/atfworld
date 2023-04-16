@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .slick-slide > div {
   margin: 0 10px;
 }
@@ -28,10 +32,28 @@
 
 .arrow-btn-prev-packages {
   z-index: 1;
-  left: 8px;
+  left: 4px;
 }
 
 .arrow-btn-next-packages {
   z-index: 1;
   float: right;
+  left: 4px;
+}
+
+.dropdown_menu {
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }

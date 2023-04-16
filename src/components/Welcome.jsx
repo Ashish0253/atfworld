@@ -3,10 +3,14 @@ import Idea from "../assets/idea.svg";
 import Design from "../assets/design.svg";
 import Build from "../assets/build.svg";
 import building from "../assets/building.svg";
+import timeline from "../assets/Timeline.svg";
 
 const Welcome = () => {
   return (
-    <div className="pl-[15%] grid grid-cols-5 gap-20 py-10 bg-[#f4f3ed]">
+    <div
+      className="pl-[15%] grid grid-cols-5 gap-20 py-10 bg-[#f4f3ed]"
+      id="About Us"
+    >
       <div className="col-span-3 ">
         <div className="border-b-2 border-secondary">
           <div className="text-primary text-[60px]">
@@ -23,23 +27,26 @@ const Welcome = () => {
             through design.
           </p>
           <div className="text-primary flex justify-end py-10">
-            <a>Read more &gt;&gt;</a>
+            <a href="#">Read more &gt;&gt;</a>
           </div>
         </div>
-        <div className="py-10">
+        <div className="py-10 ">
           <p className="text-2xl font-bold text-secondary">OUR PROCESS</p>
 
-          <div className="grid grid-cols-3 mt-10 mb-4 text-primary text-bold ">
-            <div>
-              <img src={Idea} alt="idea" className="w-[100px] m-2" />
+          <div className="flex  mt-10 mb-4 text-primary text-xl text-bold ">
+            <div className="grid justify-items-center">
+              <img src={Idea} alt="idea" className="w-[80px] m-3  " />
               Idea & Start
             </div>
-            <div>
-              <img src={Design} alt="design" className="w-[100px] m-2" />
+            <img src={timeline} alt="timeline" width={173} />
+            <div className="grid justify-items-center">
+              <img src={Design} alt="design" className="w-[80px] m-3" />
               Design & Create
             </div>
-            <div>
-              <img src={Build} alt="build" className="w-[100px] m-2" />
+            <img src={timeline} alt="timeline" width={173} />
+
+            <div className="grid justify-items-center">
+              <img src={Build} alt="build" className="w-[80px] m-3" />
               Build & Finish
             </div>
           </div>

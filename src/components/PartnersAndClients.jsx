@@ -9,7 +9,7 @@ const PartnersAndClients = () => {
     <>
       <div className="px-[14%] py-14">
         {/* heading  */}
-        <div className="border-b-2 border-primary text-primary text-[40px]">
+        <div className="border-b-4 border-primary  text-primary text-[40px] leading-[44px] pb-8">
           <p className="">OUR PARTNERS</p>
           <p className="font-bold">AND CLIENTS</p>
         </div>
