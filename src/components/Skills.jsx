@@ -29,13 +29,13 @@ const Skills = () => {
                     width="300"
                     trackWidth="40"
                     percentage="80"
-                    // fontColor="#DC7227"
-                    // defColor={{
-                    //   fair: "#DC7227",
-                    //   good: "#DC7227",
-                    //   excellent: "#DC7227",
-                    //   poor: "#DC7227",
-                    // }}
+                    fontColor="#DC7227"
+                    defColor={{
+                      fair: "#DC7227",
+                      good: "#DC7227",
+                      excellent: "#DC7227",
+                      poor: "#DC7227",
+                    }}
                   />
                 </div>
                 <div className="text-white font-semibold text-2xl">
