@@ -1,5 +1,5 @@
 import React from "react";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import project from "../assets/project.svg";
 import { BiCheckDouble } from "react-icons/bi";
 

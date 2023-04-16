@@ -13,14 +13,14 @@ const Navbar = () => {
   const [isSticky, setIsSticky] = React.useState(false);
 
   const scrollPos = useScrollPosition(setIsSticky);
-  console.log(scrollPos);
-  console.log(isSticky);
+  // console.log(scrollPos);
+  // console.log(isSticky);
 
   return (
     <>
       <div
-        className={`bg-transparent top-0 z-10 flex justify-between py-1 px-[10%] w-full ${
-          isSticky ? "fixed bg-black bg-opacity-50" : "absolute"
+        className={` top-0 z-10 flex justify-between py-1 px-[10%] w-full ${
+          isSticky ? "fixed bg-black bg-opacity-50" : "absolute bg-transparent"
         } `}
         id=""
       >
