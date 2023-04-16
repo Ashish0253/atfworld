@@ -1,7 +1,10 @@
 import React from "react";
 import { skills } from "../data";
 // import Countup from "./Countup";
-import ProgressBar from "react-animated-progress-bar";
+// import ProgressBar from "react-animated-progress-bar";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
+import VisibilitySensor from "react-visibility-sensor";
 
 const Skills = () => {
   return (
@@ -25,18 +28,30 @@ const Skills = () => {
               <div key={item.title} className="grid justify-items-center ">
                 <div className="text-primary font-bold p-4 flex">
                   {/* <Countup number={item.number} /> % */}
-                  <ProgressBar
-                    width="300"
-                    trackWidth="40"
-                    percentage="80"
-                    fontColor="#DC7227"
-                    defColor={{
-                      fair: "#DC7227",
-                      good: "#DC7227",
-                      excellent: "#DC7227",
-                      poor: "#DC7227",
+                  <VisibilitySensor>
+                    {({ isVisible }) => {
+                      const percentage = isVisible ? item.number : 0;
+
+                      return (
+                        <CircularProgressbar
+                          value={percentage}
+                          text={`${percentage}%`}
+                          strokeWidth={15}
+                          // backgroundPadding={1}
+                          styles={buildStyles({
+                            // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+                            strokeLinecap: "butt",
+
+                            //colors
+                            pathColor: `#dc7227`,
+                            textColor: "#dc7227",
+                            trailColor: "#d6d6d6",
+                            backgroundColor: "#3e98c7",
+                          })}
+                        />
+                      );
                     }}
-                  />
+                  </VisibilitySensor>
                 </div>
                 <div className="text-white font-semibold text-2xl">
                   {item.title}

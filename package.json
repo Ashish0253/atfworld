@@ -16,10 +16,11 @@
     "@react-spring/parallax": "^9.7.2",
     "@react-spring/web": "^9.7.2",
     "react": "^18.2.0",
-    "react-animated-progress-bar": "^1.1.2",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-slick": "^0.29.0",
+    "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
