@@ -12,7 +12,7 @@ export default {
         number: "'Montserrat', sans-serif",
       },
       backgroundImage: {
-        frame: "url('./TestimonialFrame.svg')",
+        frame: "url('/src/assets/TestimonialFrame.svg')",
       },
     },
   },
