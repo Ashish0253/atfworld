@@ -25,18 +25,18 @@ const Skills = () => {
               <div key={item.title} className="grid justify-items-center ">
                 <div className="text-primary font-bold p-4 flex">
                   {/* <Countup number={item.number} /> % */}
-                  {/* <ProgressBar
+                  <ProgressBar
                     width="300"
                     trackWidth="40"
                     percentage="80"
                     fontColor="#DC7227"
-                    defColor={{
-                      fair: "#DC7227",
-                      good: "#DC7227",
-                      excellent: "#DC7227",
-                      poor: "#DC7227",
-                    }}
-                  /> */}
+                    // defColor={{
+                    //   fair: "#DC7227",
+                    //   good: "#DC7227",
+                    //   excellent: "#DC7227",
+                    //   poor: "#DC7227",
+                    // }}
+                  />
                 </div>
                 <div className="text-white font-semibold text-2xl">
                   {item.title}
