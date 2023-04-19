@@ -13,6 +13,7 @@ export default {
       },
       backgroundImage: {
         frame: "url('/src/assets/TestimonialFrame.svg')",
+        project: "url('/src/assets/project.svg')",
       },
     },
   },

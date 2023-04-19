@@ -13,6 +13,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import React from "react";
+import ParallaxTrial from "./components/parallax";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import Parallax2 from "./components/Parallax2";
 
 const App = () => {
   return (
@@ -22,6 +25,7 @@ const App = () => {
       <Welcome />
       <Facts />
       <Projects />
+      {/* <Parallax2 /> */}
       <Skills />
       <Team />
       <Testimonials />
@@ -29,6 +33,7 @@ const App = () => {
       <PartnersAndClients />
       <Contact />
       <Footer />
+      {/* <ParallaxTrial /> */}
     </div>
   );
 };

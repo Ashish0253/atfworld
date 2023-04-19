@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 
 export default function useScrollPosition(setIsSticky) {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [position, setPosition] = useState(0);
 
   const handleScroll = () => {
-    const position = window.pageYOffset;
-    if (window.pageYOffset > 100) {
+    // const position = window.pageYOffset;
+    setPosition(window.pageYOffset);
+    if (window.pageYOffset > 150) {
       //   console.log("ho gya");
       setIsSticky(true);
     } else {
@@ -30,5 +31,5 @@ export default function useScrollPosition(setIsSticky) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return scrollPosition;
+  return position;
 }

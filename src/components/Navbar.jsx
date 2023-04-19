@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={` top-0 z-10 flex justify-between py-1 px-[10%] w-full ${
+        className={` top-0 z-20 flex justify-between py-1 px-[10%] w-full ${
           isSticky ? "fixed bg-black bg-opacity-50" : "absolute bg-transparent"
         } `}
         id=""
